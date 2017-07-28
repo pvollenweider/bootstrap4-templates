@@ -59,8 +59,9 @@
   <name>bootstrap4-templates</name>
   <description>This is the custom profile module (bootstrap4-templates) for running on a Digital Experience Manager server.</description>
   <scm>
-    <connection>scm:dummy:uri</connection>
-    <developerConnection>scm:dummy:uri</developerConnection>
+    <connection>scm:git:git@github.com:pvollenweider/bootstrap4-templates.git</connection>
+    <developerConnection>scm:git:git@github.com:pvollenweider/bootstrap4-templates.git</developerConnection>
+  <url>scm:git:https://github.com/pvollenweider/bootstrap4-templates.git</url>
   </scm>
   <properties>
     <jahia-depends>bootstrap4-components,bootstrap4-core,default,jquery,tether</jahia-depends>
