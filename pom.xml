@@ -64,7 +64,7 @@
     <tag>HEAD</tag>
   </scm>
   <properties>
-    <jahia-depends>bootstrap4-components,bootstrap4-core,default,jquery,tether</jahia-depends>
+    <jahia-depends>bootstrap4-components,bootstrap4-core,default,jquery,popperjs</jahia-depends>
   </properties>
   <repositories>
     <repository>
