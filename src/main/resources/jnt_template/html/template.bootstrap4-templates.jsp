@@ -12,7 +12,7 @@
 <%--@elvariable id="renderContext" type="org.jahia.services.render.RenderContext"--%>
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
-<html lang="en">
+<html lang="${renderContext.mainResourceLocale.language}">
 <head>
     <%-- Required meta tags --%>
     <meta charset="utf-8">

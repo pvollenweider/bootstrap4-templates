@@ -1,33 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
     <modules jcr:primaryType="jnt:modules">
-        <bootstrap4-templates j:dependencies="default jquery popperjs bootstrap4-components bootstrap4-core"
+        <bootstrap4-templates j:dependencies="bootstrap4-components bootstrap4-core default jquery popperjs"
                             j:installedModules="bootstrap4-templates"
                             j:modulePriority="0"
                             j:moduleType="templatesSet"
                             j:title="bootstrap4-templates"
                             jcr:mixinTypes="jmix:hasExternalProviderExtension"
                             jcr:primaryType="jnt:module">
-                <sources jcr:mixinTypes="jmix:hasExternalProviderExtension"
-                  jcr:primaryType="jnt:moduleVersionFolder"
-                  j:staticMountPointProviderKey="module-bootstrap4-templates-1.0-SNAPSHOT">
-                    <src jcr:mixinTypes="jmix:hasExternalProviderExtension"
-                 jcr:primaryType="jnt:folder">
-                        <main jcr:mixinTypes="jmix:hasExternalProviderExtension"
-                     jcr:primaryType="jnt:folder">
-                            <resources jcr:mixinTypes="jmix:hasExternalProviderExtension"
-                             jcr:primaryType="jnt:folder">
-                                <jnt_template jcr:mixinTypes="jmix:hasExternalProviderExtension"
-                                   jcr:primaryType="jnt:nodeTypeFolder">
-                                    <html jcr:mixinTypes="jmix:hasExternalProviderExtension"
-                              jcr:primaryType="jnt:templateTypeFolder">
-                                        <template.bootstrap4-templates.jsp jcr:primaryType="jnt:viewFile"/>
-                                    </html>
-                                </jnt_template>
-                            </resources>
-                        </main>
-                    </src>
-                </sources>
                 
                 <portlets jcr:primaryType="jnt:portletFolder"/>
                 <files jcr:primaryType="jnt:folder"/>
@@ -43,22 +23,7 @@
                   j:view="bootstrap4-templates"
                   jcr:mixinTypes="jmix:theme"
                   jcr:primaryType="jnt:template">
-                        <home jcr:primaryType="jnt:pageTemplate">
-                            <pagecontent jcr:primaryType="jnt:contentList">
-                                <grid grid="4_8"
-                           gridLayout="fixed-width"
-                           gridType="predefinedGrid"
-                           jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:predefinedGrid"
-                           jcr:primaryType="bootstrap4nt:grid"
-                           rowHorizontalAlignment="default"
-                           rowVerticalAlignment="default"/>
-                            </pagecontent>
-                        </home>
-                        <simple jcr:primaryType="jnt:pageTemplate"/>
-                        <pagecontent jcr:primaryType="jnt:contentList">
-                            <navbar jcr:primaryType="bootstrap4nt:navbar" root="homePage"/>
-                            <pagecontent jcr:primaryType="jnt:area"/>
-                        </pagecontent>
+                        <home jcr:primaryType="jnt:pageTemplate"/>
                     </base>
                     <content-template j:applyOn="jnt:content"
                               j:hiddenTemplate="true"
