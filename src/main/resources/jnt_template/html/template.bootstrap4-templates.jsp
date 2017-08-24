@@ -28,6 +28,6 @@
 <%-- jQuery first, then Popper.js, then Bootstrap JS. --%>
 <template:addResources type="javascript" resources="jquery.min.js"/>
 <template:addResources type="javascript" resources="popper.min.js"/>
-<template:addResources type="javascript" resources="bootstrap.min.js" media="noAggregateAndCompress"//>
+<template:addResources type="javascript" resources="bootstrap.min.js" media="noAggregateAndCompress"/>
 </body>
 </html>
