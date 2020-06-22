@@ -53,7 +53,7 @@
   </parent>
   <groupId>org.jahia.modules</groupId>
   <artifactId>bootstrap4-templates</artifactId>
-  <version>1.4.0</version>
+  <version>1.4.1-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>bootstrap4-templates</name>
   <description>This is the custom profile module (bootstrap4-templates) for running on a Digital Experience Manager server.</description>
@@ -61,7 +61,7 @@
     <connection>scm:git:git@github.com:pvollenweider/bootstrap4-templates.git</connection>
     <developerConnection>scm:git:git@github.com:pvollenweider/bootstrap4-templates.git</developerConnection>
   <url>scm:git:https://github.com/pvollenweider/bootstrap4-templates.git</url>
-      <tag>bootstrap4-templates-1.4.0</tag>
+      <tag>HEAD</tag>
   </scm>
   <properties>
     <jahia-depends>default,bootstrap4-components</jahia-depends>
