@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
     <modules jcr:primaryType="jnt:modules">
-        <bootstrap4-templates j:dependencies="bootstrap4-components bootstrap4-core default jquery popperjs"
+        <bootstrap4-templates j:dependencies="bootstrap4-components"
                             j:installedModules="bootstrap4-templates"
                             j:modulePriority="0"
                             j:moduleType="templatesSet"
                             j:title="bootstrap4-templates"
                             jcr:mixinTypes="jmix:hasExternalProviderExtension"
                             jcr:primaryType="jnt:module">
-                
+
                 <portlets jcr:primaryType="jnt:portletFolder"/>
                 <files jcr:primaryType="jnt:folder"/>
                 <contents jcr:primaryType="jnt:contentFolder"/>
@@ -35,7 +35,7 @@
                         </pagecontent>
                     </content-template>
                 </templates>
-                
+
                 <home j:isHomePage="true"
                j:templateName="home"
                jcr:primaryType="jnt:page">
