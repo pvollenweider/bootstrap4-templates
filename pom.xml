@@ -49,11 +49,11 @@
   <parent>
     <groupId>org.jahia.modules</groupId>
     <artifactId>jahia-modules</artifactId>
-    <version>7.3.0.1</version>
+    <version>8.0.0.0</version>
   </parent>
-  <groupId>org.jahia.modules</groupId>
+  <groupId>org.jahiacommunity.modules</groupId>
   <artifactId>bootstrap4-templates</artifactId>
-  <version>1.4.1-SNAPSHOT</version>
+  <version>2.0.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>bootstrap4-templates</name>
   <description>This is the custom profile module (bootstrap4-templates) for running on a Digital Experience Manager server.</description>
